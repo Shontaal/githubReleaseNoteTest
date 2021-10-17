@@ -30,9 +30,9 @@ jobs:
         env:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
-      - name: Upload Documentation to Wiki
-        uses: SwiftDocOrg/github-wiki-publish-action@v1
-        with:
-          path: "https://github.com/Shontaal/githubReleaseNoteTest/releases/tag/v1.0.0"
-        env:
-          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+#       - name: Upload Documentation to Wiki
+#         uses: SwiftDocOrg/github-wiki-publish-action@v1
+#         with:
+#           path: "https://github.com/Shontaal/githubReleaseNoteTest/releases/tag/v1.0.0"
+#         env:
+#           GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
