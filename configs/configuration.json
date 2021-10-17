@@ -14,7 +14,7 @@
     "transformers": [
       {
         "pattern": "(.) (.+)", 
-        "target": "https://dev.azure.com/shontaal/releaseNotesTest/_workitems/edit/$1"
+        "target": "$1"
       }
     ]
 }
