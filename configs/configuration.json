@@ -14,7 +14,7 @@
     "transformers": [
       {
         "pattern": "AB#([0-9]+)( )?(.+?)",
-        "target":"<a href="https://dev.azure.com/shontaal/releaseNotesTest/_workitems/edit/$1" target="_blank">AB#$1</a> - $3"
+        "target": "https://dev.azure.com/shontaal/releaseNotesTest/_workitems/edit/$1 - $3"
       }
     ]
 }
