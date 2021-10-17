@@ -13,7 +13,7 @@
     "template": "${{CATEGORIZED_COUNT}} changes since ${{FROM_TAG}}\n\n${{CHANGELOG}}",
     "transformers": [
       {
-        "pattern": "/(#AB\d)/g",
+        "pattern": "(.) (.+)", 
         "target": "https://dev.azure.com/shontaal/releaseNotesTest/_workitems/edit/$1"
       }
     ]
