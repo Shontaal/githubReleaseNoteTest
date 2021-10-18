@@ -8,6 +8,10 @@
         {
             "title": "## 🐛 Fixed Bugs",
             "labels": ["bug"]
+        },
+        {
+            "title": "## 💬 Other",
+            "labels": []
         }
     ],
     "template": "${{CATEGORIZED_COUNT}} changes since ${{FROM_TAG}}\n\n${{CHANGELOG}}",
